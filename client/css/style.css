@@ -480,7 +480,7 @@ input:focus {
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index: 1000;
+  /* z-index: 10; */
 
   /* height: 320px; */
 }
@@ -1141,3 +1141,68 @@ main .swiper-button-disabled {
   padding-top: 7px;
   font-style: normal;
 }
+/* 
+.bigBanner-container {
+  width: 1920px;
+  height: 370px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .big-banner-slide {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bigBannerWrap {
+  width: 1920px;
+  outline: 2px solid red;
+}
+
+.big-banner-next {
+  background: url(./img/Right-Arrow.png) 50% 50% no-repeat;
+  position: absolute;
+  right: auto;
+  left: 50%;
+  height: 52px;
+  width: 52px;
+  margin: auto 0px auto 590px;
+  z-index: 10;
+}
+
+.big-banner-prev {
+  background: url(./img/Arrow.png) no-repeat;
+  position: absolute;
+  right: 50%;
+  height: 52px;
+  width: 52px;
+  margin: auto 590px auto 0px;
+  left: auto;
+  z-index: 10;
+}
+
+.big-banner-next::after,
+.big-banner-prev::after {
+  display: none;
+}
+
+.big-banner-prev {
+  border: 0;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.big-banner-next {
+  border: 0;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translateY(-50%);
+  cursor: pointer;
+} */
